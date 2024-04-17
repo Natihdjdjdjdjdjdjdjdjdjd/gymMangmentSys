@@ -62,7 +62,7 @@ class TrainerAdmin(admin.ModelAdmin):
 admin.site.register(models.Trainer,TrainerAdmin)
 
 class AssignSubscriberAdmin(admin.ModelAdmin):
-	list_display=('trainer','user') 
+	list_display=('trainer','user')
 admin.site.register(models.AssignSubscriber,AssignSubscriberAdmin)
 
 

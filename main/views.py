@@ -223,5 +223,3 @@ def trainer_changepassword(request):
 			msg='Something is wrong!!'
 	form=forms.TrainerChangePassword
 	return render(request, 'trainer/trainer_changepassword.html',{'form':form})
-
-	
